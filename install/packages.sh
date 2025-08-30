@@ -26,6 +26,8 @@ sudo pacman -S --noconfirm --needed \
   fcitx5-qt \
   fd \
   ffmpegthumbnailer \
+  firefox \
+  firefox-addons \
   fzf \
   gcc14 \
   github-cli \
