@@ -86,7 +86,6 @@ sudo pacman -S --noconfirm --needed \
   satty \
   signal-desktop \
   slurp \
-  spotify \
   starship \
   sushi \
   swaybg \
