@@ -4,8 +4,8 @@
 sudo pacman -S --needed --noconfirm base-devel
 
 # Add fun and color and verbosity to the pacman installer
-if ! grep -q "ILoveCandy" /etc/pacman.conf; then
-  sudo sed -i '/^\[options\]/a Color\nILoveCandy\nVerbosePkgLists' /etc/pacman.conf
+if ! grep -q "VerbosePkgLists" /etc/pacman.conf; then
+  sudo sed -i '/^\[options\]/a Color\nVerbosePkgLists' /etc/pacman.conf
 fi
 
 # Add the Omarchy repository
